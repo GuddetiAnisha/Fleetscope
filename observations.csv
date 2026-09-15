@@ -1,0 +1,361 @@
+country,category,year,source_id,observed_count
+SE,Excavators,2023,registry,8351
+SE,Excavators,2023,survey,4930
+SE,Excavators,2023,listings,2603
+SE,Excavators,2023,trade,6928
+SE,Excavators,2023,service,3443
+SE,Excavators,2024,registry,8286
+SE,Excavators,2024,survey,5364
+SE,Excavators,2024,listings,2372
+SE,Excavators,2024,trade,6655
+SE,Excavators,2024,service,3793
+SE,Excavators,2025,registry,8873
+SE,Excavators,2025,survey,5676
+SE,Excavators,2025,listings,2540
+SE,Excavators,2025,trade,7368
+SE,Excavators,2025,service,4212
+SE,Generators,2023,registry,11495
+SE,Generators,2023,survey,6887
+SE,Generators,2023,listings,3374
+SE,Generators,2023,trade,8978
+SE,Generators,2023,service,5413
+SE,Generators,2024,registry,11858
+SE,Generators,2024,survey,7383
+SE,Generators,2024,listings,3627
+SE,Generators,2024,trade,9170
+SE,Generators,2024,service,5571
+SE,Generators,2025,registry,12098
+SE,Generators,2025,survey,6940
+SE,Generators,2025,listings,3330
+SE,Generators,2025,trade,9048
+SE,Generators,2025,service,5398
+SE,Forklifts,2023,registry,14337
+SE,Forklifts,2023,survey,8875
+SE,Forklifts,2023,listings,3614
+SE,Forklifts,2023,trade,11696
+SE,Forklifts,2023,service,6595
+SE,Forklifts,2024,registry,14807
+SE,Forklifts,2024,survey,9497
+SE,Forklifts,2024,listings,4495
+SE,Forklifts,2024,trade,12133
+SE,Forklifts,2024,service,6915
+SE,Forklifts,2025,registry,15045
+SE,Forklifts,2025,survey,9468
+SE,Forklifts,2025,listings,3555
+SE,Forklifts,2025,trade,10679
+SE,Forklifts,2025,service,6564
+SE,Wheel loaders,2023,registry,17989
+SE,Wheel loaders,2023,survey,11430
+SE,Wheel loaders,2023,listings,5267
+SE,Wheel loaders,2023,trade,15120
+SE,Wheel loaders,2023,service,7642
+SE,Wheel loaders,2024,registry,17721
+SE,Wheel loaders,2024,survey,10725
+SE,Wheel loaders,2024,listings,4963
+SE,Wheel loaders,2024,trade,12703
+SE,Wheel loaders,2024,service,8756
+SE,Wheel loaders,2025,registry,18318
+SE,Wheel loaders,2025,survey,10680
+SE,Wheel loaders,2025,listings,4712
+SE,Wheel loaders,2025,trade,14725
+SE,Wheel loaders,2025,service,9080
+DE,Excavators,2023,registry,15511
+DE,Excavators,2023,survey,10294
+DE,Excavators,2023,listings,7579
+DE,Excavators,2023,trade,13155
+DE,Excavators,2023,service,7581
+DE,Excavators,2024,registry,16114
+DE,Excavators,2024,survey,10106
+DE,Excavators,2024,listings,8010
+DE,Excavators,2024,trade,13054
+DE,Excavators,2024,service,7388
+DE,Excavators,2025,registry,16162
+DE,Excavators,2025,survey,9717
+DE,Excavators,2025,listings,9035
+DE,Excavators,2025,trade,14410
+DE,Excavators,2025,service,7860
+DE,Generators,2023,registry,21883
+DE,Generators,2023,survey,12148
+DE,Generators,2023,listings,6213
+DE,Generators,2023,trade,15921
+DE,Generators,2023,service,9409
+DE,Generators,2024,registry,21756
+DE,Generators,2024,survey,13642
+DE,Generators,2024,listings,7063
+DE,Generators,2024,trade,15732
+DE,Generators,2024,service,10425
+DE,Generators,2025,registry,22479
+DE,Generators,2025,survey,13988
+DE,Generators,2025,listings,7304
+DE,Generators,2025,trade,18446
+DE,Generators,2025,service,11522
+DE,Forklifts,2023,registry,27388
+DE,Forklifts,2023,survey,15680
+DE,Forklifts,2023,listings,6625
+DE,Forklifts,2023,trade,24692
+DE,Forklifts,2023,service,11897
+DE,Forklifts,2024,registry,27508
+DE,Forklifts,2024,survey,19239
+DE,Forklifts,2024,listings,10791
+DE,Forklifts,2024,trade,20220
+DE,Forklifts,2024,service,12924
+DE,Forklifts,2025,registry,29026
+DE,Forklifts,2025,survey,19623
+DE,Forklifts,2025,listings,7411
+DE,Forklifts,2025,trade,22189
+DE,Forklifts,2025,service,14178
+DE,Wheel loaders,2023,registry,33450
+DE,Wheel loaders,2023,survey,21347
+DE,Wheel loaders,2023,listings,7733
+DE,Wheel loaders,2023,trade,27750
+DE,Wheel loaders,2023,service,16061
+DE,Wheel loaders,2024,registry,33349
+DE,Wheel loaders,2024,survey,20864
+DE,Wheel loaders,2024,listings,10155
+DE,Wheel loaders,2024,trade,26808
+DE,Wheel loaders,2024,service,15745
+DE,Wheel loaders,2025,registry,34887
+DE,Wheel loaders,2025,survey,21626
+DE,Wheel loaders,2025,listings,10282
+DE,Wheel loaders,2025,trade,30198
+DE,Wheel loaders,2025,service,13897
+FR,Excavators,2023,registry,23604
+FR,Excavators,2023,survey,14421
+FR,Excavators,2023,listings,7605
+FR,Excavators,2023,trade,19157
+FR,Excavators,2023,service,12113
+FR,Excavators,2024,registry,24169
+FR,Excavators,2024,survey,13751
+FR,Excavators,2024,listings,6836
+FR,Excavators,2024,trade,17125
+FR,Excavators,2024,service,10845
+FR,Excavators,2025,registry,25154
+FR,Excavators,2025,survey,15784
+FR,Excavators,2025,listings,6505
+FR,Excavators,2025,trade,17764
+FR,Excavators,2025,service,11495
+FR,Generators,2023,registry,31742
+FR,Generators,2023,survey,20330
+FR,Generators,2023,listings,10242
+FR,Generators,2023,trade,23086
+FR,Generators,2023,service,14848
+FR,Generators,2024,registry,33602
+FR,Generators,2024,survey,19686
+FR,Generators,2024,listings,8564
+FR,Generators,2024,trade,25919
+FR,Generators,2024,service,16111
+FR,Generators,2025,registry,33458
+FR,Generators,2025,survey,22350
+FR,Generators,2025,listings,10605
+FR,Generators,2025,trade,27740
+FR,Generators,2025,service,16240
+FR,Forklifts,2023,registry,39868
+FR,Forklifts,2023,survey,25107
+FR,Forklifts,2023,listings,11952
+FR,Forklifts,2023,trade,33487
+FR,Forklifts,2023,service,18552
+FR,Forklifts,2024,registry,41881
+FR,Forklifts,2024,survey,25623
+FR,Forklifts,2024,listings,11827
+FR,Forklifts,2024,trade,34345
+FR,Forklifts,2024,service,17147
+FR,Forklifts,2025,registry,41383
+FR,Forklifts,2025,survey,24644
+FR,Forklifts,2025,listings,9060
+FR,Forklifts,2025,trade,31691
+FR,Forklifts,2025,service,20860
+FR,Wheel loaders,2023,registry,47987
+FR,Wheel loaders,2023,survey,29717
+FR,Wheel loaders,2023,listings,14862
+FR,Wheel loaders,2023,trade,37893
+FR,Wheel loaders,2023,service,23496
+FR,Wheel loaders,2024,registry,50626
+FR,Wheel loaders,2024,survey,33569
+FR,Wheel loaders,2024,listings,13973
+FR,Wheel loaders,2024,trade,35293
+FR,Wheel loaders,2024,service,25130
+FR,Wheel loaders,2025,registry,51177
+FR,Wheel loaders,2025,survey,34076
+FR,Wheel loaders,2025,listings,15540
+FR,Wheel loaders,2025,trade,39976
+FR,Wheel loaders,2025,service,24714
+PL,Excavators,2023,registry,30714
+PL,Excavators,2023,survey,21739
+PL,Excavators,2023,listings,9103
+PL,Excavators,2023,trade,26463
+PL,Excavators,2023,service,14509
+PL,Excavators,2024,registry,31843
+PL,Excavators,2024,survey,19665
+PL,Excavators,2024,listings,8928
+PL,Excavators,2024,trade,23306
+PL,Excavators,2024,service,15173
+PL,Excavators,2025,registry,31715
+PL,Excavators,2025,survey,20887
+PL,Excavators,2025,listings,10469
+PL,Excavators,2025,trade,25916
+PL,Excavators,2025,service,14900
+PL,Generators,2023,registry,43443
+PL,Generators,2023,survey,25080
+PL,Generators,2023,listings,10951
+PL,Generators,2023,trade,36029
+PL,Generators,2023,service,19542
+PL,Generators,2024,registry,44335
+PL,Generators,2024,survey,26420
+PL,Generators,2024,listings,14511
+PL,Generators,2024,trade,34083
+PL,Generators,2024,service,20577
+PL,Generators,2025,registry,45586
+PL,Generators,2025,survey,27192
+PL,Generators,2025,listings,11428
+PL,Generators,2025,trade,33529
+PL,Generators,2025,service,21334
+PL,Forklifts,2023,registry,52886
+PL,Forklifts,2023,survey,31990
+PL,Forklifts,2023,listings,15328
+PL,Forklifts,2023,trade,42826
+PL,Forklifts,2023,service,25185
+PL,Forklifts,2024,registry,53933
+PL,Forklifts,2024,survey,35859
+PL,Forklifts,2024,listings,17155
+PL,Forklifts,2024,trade,42414
+PL,Forklifts,2024,service,24728
+PL,Forklifts,2025,registry,56756
+PL,Forklifts,2025,survey,35503
+PL,Forklifts,2025,listings,13589
+PL,Forklifts,2025,trade,43756
+PL,Forklifts,2025,service,26794
+PL,Wheel loaders,2023,registry,65851
+PL,Wheel loaders,2023,survey,41087
+PL,Wheel loaders,2023,listings,14995
+PL,Wheel loaders,2023,trade,52576
+PL,Wheel loaders,2023,service,29392
+PL,Wheel loaders,2024,registry,68111
+PL,Wheel loaders,2024,survey,40306
+PL,Wheel loaders,2024,listings,17830
+PL,Wheel loaders,2024,trade,53985
+PL,Wheel loaders,2024,service,32637
+PL,Wheel loaders,2025,registry,68688
+PL,Wheel loaders,2025,survey,39057
+PL,Wheel loaders,2025,listings,20877
+PL,Wheel loaders,2025,trade,49454
+PL,Wheel loaders,2025,service,32440
+GB,Excavators,2023,registry,38623
+GB,Excavators,2023,survey,24547
+GB,Excavators,2023,listings,9184
+GB,Excavators,2023,trade,31363
+GB,Excavators,2023,service,20150
+GB,Excavators,2024,registry,39269
+GB,Excavators,2024,survey,24104
+GB,Excavators,2024,listings,11135
+GB,Excavators,2024,trade,31967
+GB,Excavators,2024,service,16479
+GB,Excavators,2025,registry,40245
+GB,Excavators,2025,survey,24640
+GB,Excavators,2025,listings,14010
+GB,Excavators,2025,trade,31031
+GB,Excavators,2025,service,20735
+GB,Generators,2023,registry,52712
+GB,Generators,2023,survey,32497
+GB,Generators,2023,listings,16515
+GB,Generators,2023,trade,42755
+GB,Generators,2023,service,26424
+GB,Generators,2024,registry,53056
+GB,Generators,2024,survey,32859
+GB,Generators,2024,listings,14667
+GB,Generators,2024,trade,44312
+GB,Generators,2024,service,27457
+GB,Generators,2025,registry,54450
+GB,Generators,2025,survey,33698
+GB,Generators,2025,listings,16452
+GB,Generators,2025,trade,42296
+GB,Generators,2025,service,27297
+GB,Forklifts,2023,registry,65075
+GB,Forklifts,2023,survey,41421
+GB,Forklifts,2023,listings,21647
+GB,Forklifts,2023,trade,43720
+GB,Forklifts,2023,service,28412
+GB,Forklifts,2024,registry,66837
+GB,Forklifts,2024,survey,45778
+GB,Forklifts,2024,listings,20316
+GB,Forklifts,2024,trade,56191
+GB,Forklifts,2024,service,29807
+GB,Forklifts,2025,registry,68234
+GB,Forklifts,2025,survey,44707
+GB,Forklifts,2025,listings,20314
+GB,Forklifts,2025,trade,56759
+GB,Forklifts,2025,service,32427
+GB,Wheel loaders,2023,registry,82573
+GB,Wheel loaders,2023,survey,52075
+GB,Wheel loaders,2023,listings,25234
+GB,Wheel loaders,2023,trade,65902
+GB,Wheel loaders,2023,service,38627
+GB,Wheel loaders,2024,registry,79628
+GB,Wheel loaders,2024,survey,51949
+GB,Wheel loaders,2024,listings,22383
+GB,Wheel loaders,2024,trade,58873
+GB,Wheel loaders,2024,service,42715
+GB,Wheel loaders,2025,registry,87565
+GB,Wheel loaders,2025,survey,56630
+GB,Wheel loaders,2025,listings,25176
+GB,Wheel loaders,2025,trade,72550
+GB,Wheel loaders,2025,service,39799
+US,Excavators,2023,registry,44661
+US,Excavators,2023,survey,29093
+US,Excavators,2023,listings,13763
+US,Excavators,2023,trade,38972
+US,Excavators,2023,service,22866
+US,Excavators,2024,registry,46668
+US,Excavators,2024,survey,27491
+US,Excavators,2024,listings,13044
+US,Excavators,2024,trade,37201
+US,Excavators,2024,service,21720
+US,Excavators,2025,registry,47406
+US,Excavators,2025,survey,30428
+US,Excavators,2025,listings,13082
+US,Excavators,2025,trade,35908
+US,Excavators,2025,service,22957
+US,Generators,2023,registry,64923
+US,Generators,2023,survey,39252
+US,Generators,2023,listings,21652
+US,Generators,2023,trade,48658
+US,Generators,2023,service,29618
+US,Generators,2024,registry,64573
+US,Generators,2024,survey,46545
+US,Generators,2024,listings,20311
+US,Generators,2024,trade,47717
+US,Generators,2024,service,31873
+US,Generators,2025,registry,65231
+US,Generators,2025,survey,40158
+US,Generators,2025,listings,20942
+US,Generators,2025,trade,51569
+US,Generators,2025,service,31390
+US,Forklifts,2023,registry,80936
+US,Forklifts,2023,survey,46999
+US,Forklifts,2023,listings,19940
+US,Forklifts,2023,trade,57444
+US,Forklifts,2023,service,37970
+US,Forklifts,2024,registry,83444
+US,Forklifts,2024,survey,49908
+US,Forklifts,2024,listings,16916
+US,Forklifts,2024,trade,56155
+US,Forklifts,2024,service,36344
+US,Forklifts,2025,registry,82521
+US,Forklifts,2025,survey,51216
+US,Forklifts,2025,listings,24236
+US,Forklifts,2025,trade,63928
+US,Forklifts,2025,service,41681
+US,Wheel loaders,2023,registry,94651
+US,Wheel loaders,2023,survey,60706
+US,Wheel loaders,2023,listings,26061
+US,Wheel loaders,2023,trade,74555
+US,Wheel loaders,2023,service,50371
+US,Wheel loaders,2024,registry,98394
+US,Wheel loaders,2024,survey,63134
+US,Wheel loaders,2024,listings,27802
+US,Wheel loaders,2024,trade,77728
+US,Wheel loaders,2024,service,46408
+US,Wheel loaders,2025,registry,102105
+US,Wheel loaders,2025,survey,67095
+US,Wheel loaders,2025,listings,34685
+US,Wheel loaders,2025,trade,80969
+US,Wheel loaders,2025,service,49233

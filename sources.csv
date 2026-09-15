@@ -1,0 +1,6 @@
+source_id,source_type,geography,year,coverage,granularity,update_frequency,cost_tier,reliability_score
+registry,Public-style registry,SE;DE;FR;PL;GB;US,2025,0.83,country/category/year,annual,free,0.92
+survey,Industry-style survey,SE;DE;FR;PL;GB;US,2025,0.52,country/category/year,annual,medium,0.8
+listings,Marketplace-style listings,SE;DE;FR;PL;GB;US,2025,0.24,country/category/year,annual,low,0.55
+trade,Trade-model proxy,SE;DE;FR;PL;GB;US,2025,0.65,country/category/year,annual,high,0.72
+service,Service-network-style sample,SE;DE;FR;PL;GB;US,2025,0.39,country/category/year,annual,medium,0.76

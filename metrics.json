@@ -1,0 +1,9 @@
+{
+  "MAE": 988.491663990581,
+  "RMSE": 1491.8712148157108,
+  "MAPE_pct": 2.0160997436434163,
+  "interval_coverage": 1.0,
+  "benchmark_match_coverage": 1.0,
+  "matched_rows": 72,
+  "zero_reference_rows": 0
+}

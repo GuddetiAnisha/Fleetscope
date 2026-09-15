@@ -1,0 +1,625 @@
+country,category,cohort_year,units
+SE,Excavators,2025,636
+SE,Excavators,2024,730
+SE,Excavators,2023,590
+SE,Excavators,2022,808
+SE,Excavators,2021,752
+SE,Excavators,2020,788
+SE,Excavators,2019,673
+SE,Excavators,2018,849
+SE,Excavators,2017,827
+SE,Excavators,2016,794
+SE,Excavators,2015,627
+SE,Excavators,2014,705
+SE,Excavators,2013,584
+SE,Excavators,2012,616
+SE,Excavators,2011,767
+SE,Excavators,2010,784
+SE,Excavators,2009,848
+SE,Excavators,2008,665
+SE,Excavators,2007,677
+SE,Excavators,2006,706
+SE,Excavators,2005,626
+SE,Excavators,2004,609
+SE,Excavators,2003,707
+SE,Excavators,2002,636
+SE,Excavators,2001,763
+SE,Excavators,2000,696
+SE,Generators,2025,838
+SE,Generators,2024,828
+SE,Generators,2023,1044
+SE,Generators,2022,967
+SE,Generators,2021,1004
+SE,Generators,2020,1082
+SE,Generators,2019,1031
+SE,Generators,2018,1000
+SE,Generators,2017,1002
+SE,Generators,2016,902
+SE,Generators,2015,795
+SE,Generators,2014,954
+SE,Generators,2013,867
+SE,Generators,2012,943
+SE,Generators,2011,1117
+SE,Generators,2010,874
+SE,Generators,2009,806
+SE,Generators,2008,893
+SE,Generators,2007,898
+SE,Generators,2006,1042
+SE,Generators,2005,1001
+SE,Generators,2004,1090
+SE,Generators,2003,1043
+SE,Generators,2002,942
+SE,Generators,2001,1101
+SE,Generators,2000,848
+SE,Forklifts,2025,1472
+SE,Forklifts,2024,1446
+SE,Forklifts,2023,1342
+SE,Forklifts,2022,1126
+SE,Forklifts,2021,1476
+SE,Forklifts,2020,1381
+SE,Forklifts,2019,1351
+SE,Forklifts,2018,1218
+SE,Forklifts,2017,1130
+SE,Forklifts,2016,1042
+SE,Forklifts,2015,1443
+SE,Forklifts,2014,1221
+SE,Forklifts,2013,1095
+SE,Forklifts,2012,1146
+SE,Forklifts,2011,1282
+SE,Forklifts,2010,1082
+SE,Forklifts,2009,1420
+SE,Forklifts,2008,1371
+SE,Forklifts,2007,1352
+SE,Forklifts,2006,1209
+SE,Forklifts,2005,1306
+SE,Forklifts,2004,1285
+SE,Forklifts,2003,1317
+SE,Forklifts,2002,1036
+SE,Forklifts,2001,1201
+SE,Forklifts,2000,1015
+SE,Wheel loaders,2025,1499
+SE,Wheel loaders,2024,1502
+SE,Wheel loaders,2023,1771
+SE,Wheel loaders,2022,1550
+SE,Wheel loaders,2021,1491
+SE,Wheel loaders,2020,1367
+SE,Wheel loaders,2019,1406
+SE,Wheel loaders,2018,1520
+SE,Wheel loaders,2017,1470
+SE,Wheel loaders,2016,1219
+SE,Wheel loaders,2015,1704
+SE,Wheel loaders,2014,1746
+SE,Wheel loaders,2013,1290
+SE,Wheel loaders,2012,1540
+SE,Wheel loaders,2011,1271
+SE,Wheel loaders,2010,1611
+SE,Wheel loaders,2009,1375
+SE,Wheel loaders,2008,1603
+SE,Wheel loaders,2007,1644
+SE,Wheel loaders,2006,1669
+SE,Wheel loaders,2005,1271
+SE,Wheel loaders,2004,1758
+SE,Wheel loaders,2003,1345
+SE,Wheel loaders,2002,1228
+SE,Wheel loaders,2001,1540
+SE,Wheel loaders,2000,1429
+DE,Excavators,2025,1571
+DE,Excavators,2024,1367
+DE,Excavators,2023,1257
+DE,Excavators,2022,1505
+DE,Excavators,2021,1445
+DE,Excavators,2020,1289
+DE,Excavators,2019,1137
+DE,Excavators,2018,1491
+DE,Excavators,2017,1228
+DE,Excavators,2016,1594
+DE,Excavators,2015,1217
+DE,Excavators,2014,1152
+DE,Excavators,2013,1537
+DE,Excavators,2012,1169
+DE,Excavators,2011,1183
+DE,Excavators,2010,1411
+DE,Excavators,2009,1560
+DE,Excavators,2008,1192
+DE,Excavators,2007,1254
+DE,Excavators,2006,1508
+DE,Excavators,2005,1613
+DE,Excavators,2004,1358
+DE,Excavators,2003,1164
+DE,Excavators,2002,1093
+DE,Excavators,2001,1210
+DE,Excavators,2000,1157
+DE,Generators,2025,1700
+DE,Generators,2024,2175
+DE,Generators,2023,1506
+DE,Generators,2022,1900
+DE,Generators,2021,1959
+DE,Generators,2020,1566
+DE,Generators,2019,1592
+DE,Generators,2018,1799
+DE,Generators,2017,2206
+DE,Generators,2016,1931
+DE,Generators,2015,2181
+DE,Generators,2014,2086
+DE,Generators,2013,1835
+DE,Generators,2012,2071
+DE,Generators,2011,1501
+DE,Generators,2010,1569
+DE,Generators,2009,2104
+DE,Generators,2008,2080
+DE,Generators,2007,1660
+DE,Generators,2006,1882
+DE,Generators,2005,1938
+DE,Generators,2004,2133
+DE,Generators,2003,1936
+DE,Generators,2002,1794
+DE,Generators,2001,1766
+DE,Generators,2000,1804
+DE,Forklifts,2025,2045
+DE,Forklifts,2024,2158
+DE,Forklifts,2023,2034
+DE,Forklifts,2022,1998
+DE,Forklifts,2021,1909
+DE,Forklifts,2020,1941
+DE,Forklifts,2019,2054
+DE,Forklifts,2018,1940
+DE,Forklifts,2017,2448
+DE,Forklifts,2016,2532
+DE,Forklifts,2015,2261
+DE,Forklifts,2014,2190
+DE,Forklifts,2013,2366
+DE,Forklifts,2012,2716
+DE,Forklifts,2011,2693
+DE,Forklifts,2010,1930
+DE,Forklifts,2009,2061
+DE,Forklifts,2008,2113
+DE,Forklifts,2007,2125
+DE,Forklifts,2006,2429
+DE,Forklifts,2005,2282
+DE,Forklifts,2004,1936
+DE,Forklifts,2003,2242
+DE,Forklifts,2002,2384
+DE,Forklifts,2001,1985
+DE,Forklifts,2000,2676
+DE,Wheel loaders,2025,2732
+DE,Wheel loaders,2024,3023
+DE,Wheel loaders,2023,2596
+DE,Wheel loaders,2022,2451
+DE,Wheel loaders,2021,2838
+DE,Wheel loaders,2020,2768
+DE,Wheel loaders,2019,2557
+DE,Wheel loaders,2018,2712
+DE,Wheel loaders,2017,2711
+DE,Wheel loaders,2016,2666
+DE,Wheel loaders,2015,2726
+DE,Wheel loaders,2014,3076
+DE,Wheel loaders,2013,2631
+DE,Wheel loaders,2012,3378
+DE,Wheel loaders,2011,3340
+DE,Wheel loaders,2010,2842
+DE,Wheel loaders,2009,2667
+DE,Wheel loaders,2008,2904
+DE,Wheel loaders,2007,3263
+DE,Wheel loaders,2006,3038
+DE,Wheel loaders,2005,3212
+DE,Wheel loaders,2004,2901
+DE,Wheel loaders,2003,3016
+DE,Wheel loaders,2002,2621
+DE,Wheel loaders,2001,3133
+DE,Wheel loaders,2000,2523
+FR,Excavators,2025,2072
+FR,Excavators,2024,1676
+FR,Excavators,2023,2093
+FR,Excavators,2022,1737
+FR,Excavators,2021,2052
+FR,Excavators,2020,2058
+FR,Excavators,2019,1973
+FR,Excavators,2018,2018
+FR,Excavators,2017,2211
+FR,Excavators,2016,2239
+FR,Excavators,2015,1994
+FR,Excavators,2014,2080
+FR,Excavators,2013,2345
+FR,Excavators,2012,1696
+FR,Excavators,2011,1694
+FR,Excavators,2010,1670
+FR,Excavators,2009,2126
+FR,Excavators,2008,1935
+FR,Excavators,2007,2219
+FR,Excavators,2006,2137
+FR,Excavators,2005,1867
+FR,Excavators,2004,2319
+FR,Excavators,2003,2210
+FR,Excavators,2002,1816
+FR,Excavators,2001,1891
+FR,Excavators,2000,1852
+FR,Generators,2025,3124
+FR,Generators,2024,2890
+FR,Generators,2023,2326
+FR,Generators,2022,2837
+FR,Generators,2021,2944
+FR,Generators,2020,2205
+FR,Generators,2019,2690
+FR,Generators,2018,3097
+FR,Generators,2017,2516
+FR,Generators,2016,2695
+FR,Generators,2015,2677
+FR,Generators,2014,2523
+FR,Generators,2013,3199
+FR,Generators,2012,3048
+FR,Generators,2011,2313
+FR,Generators,2010,3285
+FR,Generators,2009,3156
+FR,Generators,2008,2503
+FR,Generators,2007,3109
+FR,Generators,2006,2309
+FR,Generators,2005,3287
+FR,Generators,2004,2922
+FR,Generators,2003,2905
+FR,Generators,2002,2291
+FR,Generators,2001,3175
+FR,Generators,2000,2224
+FR,Forklifts,2025,4075
+FR,Forklifts,2024,3859
+FR,Forklifts,2023,3756
+FR,Forklifts,2022,3950
+FR,Forklifts,2021,2840
+FR,Forklifts,2020,3065
+FR,Forklifts,2019,2958
+FR,Forklifts,2018,3486
+FR,Forklifts,2017,3821
+FR,Forklifts,2016,3661
+FR,Forklifts,2015,3969
+FR,Forklifts,2014,3000
+FR,Forklifts,2013,3807
+FR,Forklifts,2012,3053
+FR,Forklifts,2011,3161
+FR,Forklifts,2010,3772
+FR,Forklifts,2009,4148
+FR,Forklifts,2008,3635
+FR,Forklifts,2007,2860
+FR,Forklifts,2006,3642
+FR,Forklifts,2005,2843
+FR,Forklifts,2004,4015
+FR,Forklifts,2003,3772
+FR,Forklifts,2002,3025
+FR,Forklifts,2001,2912
+FR,Forklifts,2000,3039
+FR,Wheel loaders,2025,4176
+FR,Wheel loaders,2024,3577
+FR,Wheel loaders,2023,3602
+FR,Wheel loaders,2022,3845
+FR,Wheel loaders,2021,3890
+FR,Wheel loaders,2020,4098
+FR,Wheel loaders,2019,4407
+FR,Wheel loaders,2018,4447
+FR,Wheel loaders,2017,4071
+FR,Wheel loaders,2016,4066
+FR,Wheel loaders,2015,3743
+FR,Wheel loaders,2014,4369
+FR,Wheel loaders,2013,3911
+FR,Wheel loaders,2012,3437
+FR,Wheel loaders,2011,4082
+FR,Wheel loaders,2010,4176
+FR,Wheel loaders,2009,3757
+FR,Wheel loaders,2008,4342
+FR,Wheel loaders,2007,4331
+FR,Wheel loaders,2006,4561
+FR,Wheel loaders,2005,4470
+FR,Wheel loaders,2004,4477
+FR,Wheel loaders,2003,3910
+FR,Wheel loaders,2002,4705
+FR,Wheel loaders,2001,4303
+FR,Wheel loaders,2000,4104
+PL,Excavators,2025,2468
+PL,Excavators,2024,2297
+PL,Excavators,2023,2446
+PL,Excavators,2022,2899
+PL,Excavators,2021,2130
+PL,Excavators,2020,2989
+PL,Excavators,2019,3020
+PL,Excavators,2018,2508
+PL,Excavators,2017,2277
+PL,Excavators,2016,2749
+PL,Excavators,2015,2241
+PL,Excavators,2014,2500
+PL,Excavators,2013,3127
+PL,Excavators,2012,3167
+PL,Excavators,2011,2931
+PL,Excavators,2010,2443
+PL,Excavators,2009,2841
+PL,Excavators,2008,2860
+PL,Excavators,2007,2524
+PL,Excavators,2006,2792
+PL,Excavators,2005,2126
+PL,Excavators,2004,2335
+PL,Excavators,2003,2669
+PL,Excavators,2002,2287
+PL,Excavators,2001,2290
+PL,Excavators,2000,2998
+PL,Generators,2025,3234
+PL,Generators,2024,3320
+PL,Generators,2023,3607
+PL,Generators,2022,3746
+PL,Generators,2021,3611
+PL,Generators,2020,3018
+PL,Generators,2019,3249
+PL,Generators,2018,4118
+PL,Generators,2017,3820
+PL,Generators,2016,3837
+PL,Generators,2015,3867
+PL,Generators,2014,4001
+PL,Generators,2013,2981
+PL,Generators,2012,3428
+PL,Generators,2011,3678
+PL,Generators,2010,3387
+PL,Generators,2009,4120
+PL,Generators,2008,3595
+PL,Generators,2007,4010
+PL,Generators,2006,4131
+PL,Generators,2005,3628
+PL,Generators,2004,4214
+PL,Generators,2003,3747
+PL,Generators,2002,4128
+PL,Generators,2001,3390
+PL,Generators,2000,3619
+PL,Forklifts,2025,4972
+PL,Forklifts,2024,4845
+PL,Forklifts,2023,5485
+PL,Forklifts,2022,4820
+PL,Forklifts,2021,4557
+PL,Forklifts,2020,5079
+PL,Forklifts,2019,5340
+PL,Forklifts,2018,5005
+PL,Forklifts,2017,5451
+PL,Forklifts,2016,5117
+PL,Forklifts,2015,5273
+PL,Forklifts,2014,3889
+PL,Forklifts,2013,5026
+PL,Forklifts,2012,4488
+PL,Forklifts,2011,4696
+PL,Forklifts,2010,4882
+PL,Forklifts,2009,5463
+PL,Forklifts,2008,5490
+PL,Forklifts,2007,4209
+PL,Forklifts,2006,5029
+PL,Forklifts,2005,5058
+PL,Forklifts,2004,4316
+PL,Forklifts,2003,3907
+PL,Forklifts,2002,3754
+PL,Forklifts,2001,5109
+PL,Forklifts,2000,4580
+PL,Wheel loaders,2025,6052
+PL,Wheel loaders,2024,6187
+PL,Wheel loaders,2023,6392
+PL,Wheel loaders,2022,6110
+PL,Wheel loaders,2021,6248
+PL,Wheel loaders,2020,4570
+PL,Wheel loaders,2019,4984
+PL,Wheel loaders,2018,5848
+PL,Wheel loaders,2017,6375
+PL,Wheel loaders,2016,4471
+PL,Wheel loaders,2015,5609
+PL,Wheel loaders,2014,5972
+PL,Wheel loaders,2013,4527
+PL,Wheel loaders,2012,5356
+PL,Wheel loaders,2011,6459
+PL,Wheel loaders,2010,5959
+PL,Wheel loaders,2009,4991
+PL,Wheel loaders,2008,6363
+PL,Wheel loaders,2007,5237
+PL,Wheel loaders,2006,6365
+PL,Wheel loaders,2005,5128
+PL,Wheel loaders,2004,5778
+PL,Wheel loaders,2003,5347
+PL,Wheel loaders,2002,5074
+PL,Wheel loaders,2001,6439
+PL,Wheel loaders,2000,4880
+GB,Excavators,2025,2717
+GB,Excavators,2024,2894
+GB,Excavators,2023,2652
+GB,Excavators,2022,3224
+GB,Excavators,2021,3463
+GB,Excavators,2020,3080
+GB,Excavators,2019,3181
+GB,Excavators,2018,3889
+GB,Excavators,2017,3617
+GB,Excavators,2016,3339
+GB,Excavators,2015,3003
+GB,Excavators,2014,3807
+GB,Excavators,2013,2938
+GB,Excavators,2012,3056
+GB,Excavators,2011,3823
+GB,Excavators,2010,3325
+GB,Excavators,2009,3604
+GB,Excavators,2008,3405
+GB,Excavators,2007,3487
+GB,Excavators,2006,3022
+GB,Excavators,2005,2946
+GB,Excavators,2004,3052
+GB,Excavators,2003,2833
+GB,Excavators,2002,3778
+GB,Excavators,2001,3001
+GB,Excavators,2000,3367
+GB,Generators,2025,5329
+GB,Generators,2024,3787
+GB,Generators,2023,3675
+GB,Generators,2022,4044
+GB,Generators,2021,3719
+GB,Generators,2020,4421
+GB,Generators,2019,4530
+GB,Generators,2018,4164
+GB,Generators,2017,3693
+GB,Generators,2016,3802
+GB,Generators,2015,4293
+GB,Generators,2014,3710
+GB,Generators,2013,4858
+GB,Generators,2012,3974
+GB,Generators,2011,4145
+GB,Generators,2010,4311
+GB,Generators,2009,4351
+GB,Generators,2008,3604
+GB,Generators,2007,3803
+GB,Generators,2006,5155
+GB,Generators,2005,3603
+GB,Generators,2004,4516
+GB,Generators,2003,4483
+GB,Generators,2002,4201
+GB,Generators,2001,4378
+GB,Generators,2000,5007
+GB,Forklifts,2025,6675
+GB,Forklifts,2024,4595
+GB,Forklifts,2023,5004
+GB,Forklifts,2022,4645
+GB,Forklifts,2021,4827
+GB,Forklifts,2020,5992
+GB,Forklifts,2019,5126
+GB,Forklifts,2018,5875
+GB,Forklifts,2017,5923
+GB,Forklifts,2016,6516
+GB,Forklifts,2015,4585
+GB,Forklifts,2014,6525
+GB,Forklifts,2013,5990
+GB,Forklifts,2012,4946
+GB,Forklifts,2011,6341
+GB,Forklifts,2010,6530
+GB,Forklifts,2009,5155
+GB,Forklifts,2008,6675
+GB,Forklifts,2007,5613
+GB,Forklifts,2006,5954
+GB,Forklifts,2005,6825
+GB,Forklifts,2004,5400
+GB,Forklifts,2003,6433
+GB,Forklifts,2002,5302
+GB,Forklifts,2001,6401
+GB,Forklifts,2000,5948
+GB,Wheel loaders,2025,5945
+GB,Wheel loaders,2024,7468
+GB,Wheel loaders,2023,6026
+GB,Wheel loaders,2022,6953
+GB,Wheel loaders,2021,8297
+GB,Wheel loaders,2020,5557
+GB,Wheel loaders,2019,5592
+GB,Wheel loaders,2018,8300
+GB,Wheel loaders,2017,7168
+GB,Wheel loaders,2016,5898
+GB,Wheel loaders,2015,8035
+GB,Wheel loaders,2014,7988
+GB,Wheel loaders,2013,7033
+GB,Wheel loaders,2012,7271
+GB,Wheel loaders,2011,6304
+GB,Wheel loaders,2010,5686
+GB,Wheel loaders,2009,7195
+GB,Wheel loaders,2008,6364
+GB,Wheel loaders,2007,7387
+GB,Wheel loaders,2006,7865
+GB,Wheel loaders,2005,5597
+GB,Wheel loaders,2004,7198
+GB,Wheel loaders,2003,6188
+GB,Wheel loaders,2002,7970
+GB,Wheel loaders,2001,6250
+GB,Wheel loaders,2000,7240
+US,Excavators,2025,3764
+US,Excavators,2024,4215
+US,Excavators,2023,3378
+US,Excavators,2022,4654
+US,Excavators,2021,3423
+US,Excavators,2020,3456
+US,Excavators,2019,4493
+US,Excavators,2018,4577
+US,Excavators,2017,3476
+US,Excavators,2016,3881
+US,Excavators,2015,4295
+US,Excavators,2014,4523
+US,Excavators,2013,3739
+US,Excavators,2012,3955
+US,Excavators,2011,4308
+US,Excavators,2010,4292
+US,Excavators,2009,4373
+US,Excavators,2008,4038
+US,Excavators,2007,3307
+US,Excavators,2006,4563
+US,Excavators,2005,4503
+US,Excavators,2004,4397
+US,Excavators,2003,3300
+US,Excavators,2002,3464
+US,Excavators,2001,4311
+US,Excavators,2000,3179
+US,Generators,2025,4588
+US,Generators,2024,4656
+US,Generators,2023,5779
+US,Generators,2022,5037
+US,Generators,2021,6361
+US,Generators,2020,4830
+US,Generators,2019,4519
+US,Generators,2018,5928
+US,Generators,2017,6202
+US,Generators,2016,4904
+US,Generators,2015,4741
+US,Generators,2014,4706
+US,Generators,2013,5430
+US,Generators,2012,5314
+US,Generators,2011,4864
+US,Generators,2010,4403
+US,Generators,2009,5342
+US,Generators,2008,6371
+US,Generators,2007,5710
+US,Generators,2006,5372
+US,Generators,2005,4544
+US,Generators,2004,4849
+US,Generators,2003,4940
+US,Generators,2002,5952
+US,Generators,2001,6193
+US,Generators,2000,6247
+US,Forklifts,2025,7066
+US,Forklifts,2024,7479
+US,Forklifts,2023,6278
+US,Forklifts,2022,6484
+US,Forklifts,2021,6576
+US,Forklifts,2020,7547
+US,Forklifts,2019,7580
+US,Forklifts,2018,6034
+US,Forklifts,2017,8043
+US,Forklifts,2016,5798
+US,Forklifts,2015,7919
+US,Forklifts,2014,5743
+US,Forklifts,2013,6192
+US,Forklifts,2012,7783
+US,Forklifts,2011,5959
+US,Forklifts,2010,6599
+US,Forklifts,2009,6699
+US,Forklifts,2008,6139
+US,Forklifts,2007,7411
+US,Forklifts,2006,7796
+US,Forklifts,2005,7860
+US,Forklifts,2004,6396
+US,Forklifts,2003,6920
+US,Forklifts,2002,6148
+US,Forklifts,2001,6138
+US,Forklifts,2000,5909
+US,Wheel loaders,2025,7320
+US,Wheel loaders,2024,7471
+US,Wheel loaders,2023,6731
+US,Wheel loaders,2022,7026
+US,Wheel loaders,2021,9671
+US,Wheel loaders,2020,7698
+US,Wheel loaders,2019,8648
+US,Wheel loaders,2018,8173
+US,Wheel loaders,2017,7959
+US,Wheel loaders,2016,8395
+US,Wheel loaders,2015,7252
+US,Wheel loaders,2014,9909
+US,Wheel loaders,2013,9345
+US,Wheel loaders,2012,9090
+US,Wheel loaders,2011,8186
+US,Wheel loaders,2010,7138
+US,Wheel loaders,2009,9684
+US,Wheel loaders,2008,7763
+US,Wheel loaders,2007,6798
+US,Wheel loaders,2006,7767
+US,Wheel loaders,2005,9266
+US,Wheel loaders,2004,8696
+US,Wheel loaders,2003,9121
+US,Wheel loaders,2002,9263
+US,Wheel loaders,2001,7334
+US,Wheel loaders,2000,9694
