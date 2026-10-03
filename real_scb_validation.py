@@ -17,6 +17,7 @@ from fleetscope.model import estimate, validate
 
 SCB_BULK_URL = "https://www.statistikdatabasen.scb.se/Resources/PX/bulk/ssd/en/TAB1278_en.zip"
 
+
 def download_scb(out_dir: Path) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
     zpath = out_dir/'TAB1278_en.zip'
@@ -32,6 +33,7 @@ def download_scb(out_dir: Path) -> Path:
         target.write_bytes(z.read(csvs[0]))
     return target
 
+
 def _read_csv(path: Path) -> pd.DataFrame:
     raw = path.read_bytes()
     for enc in ('utf-8-sig','utf-8','latin1'):
@@ -45,12 +47,14 @@ def _read_csv(path: Path) -> pd.DataFrame:
             pass
     raise RuntimeError('Could not parse SCB CSV')
 
+
 def _find_col(columns, words):
     norm = {c: re.sub(r'[^a-z0-9]+',' ',str(c).lower()).strip() for c in columns}
     for c,n in norm.items():
         if any(w in n for w in words):
             return c
     return None
+
 
 def normalize_scb(df: pd.DataFrame) -> pd.DataFrame:
     region = _find_col(df.columns, ['region'])
@@ -66,6 +70,7 @@ def normalize_scb(df: pd.DataFrame) -> pd.DataFrame:
     out['year'] = pd.to_numeric(out.year, errors='coerce')
     out['count'] = pd.to_numeric(out['count'].astype(str).str.replace(' ','',regex=False), errors='coerce')
     return out.dropna().assign(year=lambda x:x.year.astype(int))
+
 
 def build_real_validation(table: pd.DataFrame, calibration_end=2022, eval_start=2023):
     national = table[table.region.str.match(r'^00\b', na=False)].copy()
@@ -85,8 +90,8 @@ def build_real_validation(table: pd.DataFrame, calibration_end=2022, eval_start=
     groups = {f'county_group_{i+1}': set(codes[i::3]) for i in range(3)}
     counties['county_code'] = counties.region.str.extract(r'^(\d{2})')[0]
 
-    cal_years = sorted(y for y in national.year.unique() if y <= calibration_end)
-    eval_years = sorted(y for y in national.year.unique() if y >= eval_start)
+    cal_years = sorted(int(y) for y in national.year.unique() if y <= calibration_end)
+    eval_years = sorted(int(y) for y in national.year.unique() if y >= eval_start)
     if not cal_years or not eval_years:
         raise ValueError('Calibration/evaluation years unavailable in table')
 
@@ -111,13 +116,39 @@ def build_real_validation(table: pd.DataFrame, calibration_end=2022, eval_start=
     benchmark = national_sum[national_sum.year.isin(eval_years)].rename(columns={'count':'reference_count'})
     benchmark.insert(0,'country','SE')
     return pd.DataFrame(source_specs), pd.DataFrame(source_rows), benchmark, {
-        'categories':categories,'calibration_years':cal_years,'evaluation_years':eval_years}
+        'categories':[str(c) for c in categories],
+        'calibration_years':[int(y) for y in cal_years],
+        'evaluation_years':[int(y) for y in eval_years]}
+
+
+def _json_safe(value):
+    if isinstance(value, dict):
+        return {str(k): _json_safe(v) for k, v in value.items()}
+    if isinstance(value, (list, tuple, set)):
+        return [_json_safe(v) for v in value]
+    if hasattr(value, 'item'):
+        try:
+            return value.item()
+        except (ValueError, AttributeError):
+            pass
+    return value
+
 
 def run(data_dir='real_data', output_dir='results_real_scb', calibration_end=2022, eval_start=2023):
     data_dir, output_dir = Path(data_dir), Path(output_dir)
+    print('Downloading/loading SCB dataset...')
     csv_path = download_scb(data_dir)
+    print(f'SCB file: {csv_path}')
     table = normalize_scb(_read_csv(csv_path))
+    print(f'Normalized rows: {len(table):,}')
     sources, observations, benchmark, meta = build_real_validation(table, calibration_end, eval_start)
+    print(f"Categories: {meta['categories']}")
+    print(f"Calibration years: {meta['calibration_years'][0]} - {meta['calibration_years'][-1]}")
+    print(f"Evaluation years: {meta['evaluation_years']}")
+    print(f'Sources: {len(sources)}')
+    print(f'Evaluation observations: {len(observations)}')
+    print(f'Benchmark rows: {len(benchmark)}')
+
     estimates, contributions = estimate(observations, sources)
     metrics, matched = validate(estimates, benchmark)
 
@@ -127,15 +158,28 @@ def run(data_dir='real_data', output_dir='results_real_scb', calibration_end=202
     benchmark.to_csv(output_dir/'real_benchmark.csv', index=False)
     estimates.to_csv(output_dir/'real_estimates.csv', index=False)
     matched.to_csv(output_dir/'real_validation_rows.csv', index=False)
-    payload = {
+    contributions.to_csv(output_dir/'real_contributions.csv', index=False)
+
+    payload = _json_safe({
         'dataset':'Statistics Sweden SCB TK1001AC',
         'source_url':SCB_BULK_URL,
         'design':'coverage calibration on historical years; later-year holdout evaluation',
         'independence_warning':'Source views are geographic subsets of one official registry, not independent publishers.',
-        **meta,'metrics':metrics}
-    (output_dir/'summary.json').write_text(json.dumps(payload, indent=2), encoding='utf-8')
-    print(json.dumps(payload, indent=2))
+        **meta,
+        'dataset_rows':int(len(table)),
+        'source_count':int(len(sources)),
+        'observation_count':int(len(observations)),
+        'benchmark_rows':int(len(benchmark)),
+        'matched_rows':int(len(matched)),
+        'metrics':metrics})
+
+    (output_dir/'summary.json').write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False), encoding='utf-8')
+    print('\n=== FleetScope Real SCB Validation ===')
+    print(json.dumps(payload, indent=2, ensure_ascii=False))
+    print(f'\nValidation outputs written to:\n{output_dir.resolve()}')
     return payload
+
 
 if __name__ == '__main__':
     p=argparse.ArgumentParser()
