@@ -14,9 +14,13 @@ st.title('FleetScope')
 st.caption('Multi-Source Industrial Equipment Population Intelligence Platform')
 st.info('Synthetic demonstration • Generic equipment markets • No manufacturer or proprietary data')
 
+def sample_path(filename):
+    nested = ROOT/'data'/filename
+    return nested if nested.exists() else ROOT/filename
+
 def csv_input(label, filename):
     upload = st.sidebar.file_uploader(label,type=['csv'],key=filename)
-    return pd.read_csv(upload if upload is not None else ROOT/'data'/filename)
+    return pd.read_csv(upload if upload is not None else sample_path(filename))
 
 try:
     st.sidebar.header('CSV inputs')
@@ -95,7 +99,7 @@ try:
         st.dataframe(rejected)
         st.download_button('Download quarantine',rejected.to_csv(index=False),'quarantine.csv')
         for filename in ['sources.csv','observations.csv','benchmark.csv','cohorts.csv']:
-            st.download_button('Sample '+filename,(ROOT/'data'/filename).read_bytes(),filename,'text/csv')
+            st.download_button('Sample '+filename,sample_path(filename).read_bytes(),filename,'text/csv')
     store = Store(ROOT/'fleetscope.sqlite')
     with tabs[5]:
         if st.button('Save estimation run'):
@@ -110,4 +114,4 @@ try:
     st.download_button('Download estimates, assessment & validation report ZIP',bundle(result,assessment,validation,metrics,contributions,config),'fleetscope-report.zip','application/zip')
 except (ValueError,KeyError,TypeError,pd.errors.ParserError) as e:
     st.error(f'Input error: {e}')
-    st.caption('Compare your files with the sample CSVs in the data folder.')
+    st.caption('Compare your files with the sample CSVs in the data folder or project root.')
