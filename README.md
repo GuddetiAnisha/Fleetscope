@@ -1,8 +1,7 @@
 # FleetScope
 
-**Multi-Source Industrial Equipment Population Intelligence Platform**
 
-A software-only portfolio prototype for generic industrial equipment market intelligence. This demonstrates competencies relevant to external-source assessment and population estimation. It is **not an implementation of Volvo Penta's thesis or proprietary methodology**, is not affiliated with Volvo, and contains no Volvo branding, internal data, scraped records, or hardware integration. All supplied records are generated synthetic fixtures, including the benchmark; public-style source names describe simulated source types, not actual publishers.
+
 
 ## Quick start
 
